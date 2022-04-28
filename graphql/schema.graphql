@@ -2,6 +2,7 @@ type Roy {
     name: String!
     age: Int!
     gender: String!
+    country: String!
 }
 
 type Query {

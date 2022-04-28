@@ -1,7 +1,8 @@
 const Roy = {
     name: "Roy Cho",
     age: 21,
-    gender: "Male"
+    gender: "Male",
+    country: "Korea"
 };
 
 const resolvers = {
