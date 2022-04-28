@@ -1,13 +1,8 @@
-const Roy = {
-    name: "Roy Cho",
-    age: 21,
-    gender: "Male",
-    country: "Korea"
-};
+import { getMovies } from "./db"
 
 const resolvers = {
     Query: {
-        person: () => Roy
+        movies: (_, {rating, limit}) => getMovies(limit, rating)
     }
 };
 
